@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+    width: 1150px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+#header {
+    background-color: lightgrey;
+    height: 85px;
+    color: #FFFFFF;
+    width: 1150px;
+    font-size: medium;
+}
+#header ul {
+    height: 50px;
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+#header ul li {
+    list-style-type:none;
+    width: 150px;
+    float:right;
+    text-align:center;
+}
+#header ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    display: block;
+}
+#header ul li a:hover {
+    background-color: #FFFFFF;
+    color: red;
+    font-size: large;
+}
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+#left-section, #right-section {
+    width: 500px;
+    height:700px;
+    float: left;
+    text-align:center;
+    margin-left:30px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1150px;
+    position: relative;
+}
+
+
+
+#footer {
+    clear: both;
+    width: 1150px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3B3B3B;
+    background-color: #CAFFBB;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    width: 700px;
+    border: none;
+    padding: 30px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    text-align: left;
+    display:inline-block;
+
+}
+
+.left {
+    float: left;
+    width: 400px;
+    height: 500px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    display:inline-block;
+    alignment: left;
+
+
+}
+
+.form {
+    float: left;
+
+}
+
+
+
+pre {
+
+    color: rgb(47, 156, 10);
+    background: none rgb(253, 253, 253);
+    font-family: Consolas;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+    position: relative;
+    margin: 0.5em 0px 1em;
+    overflow: auto;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+
+
+
